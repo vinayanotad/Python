@@ -43,10 +43,15 @@ tenure_label.pack()
 tenure_entry = tk.Entry(window)
 tenure_entry.pack()
 
+# clear=exit(calculate)
+
 
 # create a button to calculate EMI
 calculate_button = tk.Button(window, text="Calculate EMI",fg='Green',command=calculate)
 calculate_button.pack()
+
+# clear_button = tk.Button(window, text="CLEAR",fg='red',command=clear)
+# clear_button.pack()
 
 # create a label to display EMI
 emi_label = tk.Label(window)
