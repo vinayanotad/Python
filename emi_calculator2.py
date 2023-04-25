@@ -22,6 +22,7 @@ def calculate():
 main_window = Tk.Tk()
 main_window.title("EMI Calculator using python")
 main_window.geometry("")
+main_window.configure(bg='blue')
 
 Tk.Label(main_window, text='Amount', padx=10, pady=10).grid(row=0)
 Tk.Label(main_window, text='Interest', padx=10, pady=10).grid(row=1)

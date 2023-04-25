@@ -32,8 +32,8 @@ def calculate():
 # create a window
 window = tk.Tk()
 window.title("EMI Calculator")
-window.geometry("900x900")
-window.configure(bg='lightblue')
+window.geometry("500x500")
+window.configure(bg='lightyellow')
 
 
 # adding a label to the root window
