@@ -4,6 +4,10 @@ main = tk.Tk ( className = "emi calculator" )
 
 main.geometry("400x400")
 
+def call():
+    input_value = txt1
+
+
 label1 = tk.Label(main,text="Python")
 txt1 = tk.Entry(main)
 btn1 = tk.Button(main,text="Submit")
