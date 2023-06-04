@@ -22,7 +22,7 @@ def calculate():
     
     # create a window
 window = tk.Tk()
-window.title("EMI Calculator")
+window.title("EMI Calculator ")
 window.geometry("500x500")
 window.configure(bg='lightyellow')
 
