@@ -29,7 +29,7 @@ def calculate():
     
     #  calculate EMI
       
-    emi =  (principal * interest_rate * ((1 + interest_rate) ** tenure_months)) / (((1 + interest_rate) ** tenure_months) - 1)
+    emi = (principal * interest_rate * ((1 + interest_rate) ** tenure_months)) / (((1 + interest_rate) ** tenure_months) - 1)
     
 
     # update EMI label
