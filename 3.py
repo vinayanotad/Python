@@ -11,7 +11,7 @@ def calculate():
     loan_amount = principal - down_payment
     
     
-    # Calculating interest and profit
+    #  Calculating interest and profit
     interest_rate = (loan_amount * interest * tenure) / 100
     tenure_months = interest_rate / 2
 
