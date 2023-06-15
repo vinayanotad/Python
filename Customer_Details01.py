@@ -2,7 +2,7 @@ import tkinter as tk
 import pandas as pd
 
 def save_data():
-    # Get the input values
+    #  Get the input values
     customer_id = id_entry.get()
     customer_name = name_entry.get()
     product_name = product_entry.get()
