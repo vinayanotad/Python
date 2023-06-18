@@ -7,7 +7,7 @@ def calculate():
     down_payment=float(down_payment_entry.get())
     
     
-    # Calculating loan amount
+    #Calculating loan amount
     loan_amount = principal - down_payment
     
     
