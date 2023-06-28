@@ -2,7 +2,7 @@ import tkinter as tk
 
 def calculate():
     principal = float(principal_entry.get())
-    interest = float(interest_entry.get())
+    interest =  float(interest_entry.get())
     tenure = float(tenure_entry.get())
     downpayment=float(downpayment_entry.get())
     
